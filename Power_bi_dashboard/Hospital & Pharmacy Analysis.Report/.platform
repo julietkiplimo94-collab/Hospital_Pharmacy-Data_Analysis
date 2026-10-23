@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "Report",
+    "displayName": "Hospital & Pharmacy Analysis"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "4f0cb239-dc05-4b1a-a5e8-37830eb1da72"
+  }
+}

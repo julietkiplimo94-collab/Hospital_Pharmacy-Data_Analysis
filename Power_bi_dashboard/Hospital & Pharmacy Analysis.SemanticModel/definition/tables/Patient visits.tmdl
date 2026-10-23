@@ -1,0 +1,100 @@
+table 'Patient visits'
+	lineageTag: 3b905766-9f67-4225-bb15-bdde87a73218
+
+	measure 'Total Revenue' = sum(Pharmacy_Transactions[Total_Cost])
+		formatString: 0
+		lineageTag: 5532bf55-43f5-4ecc-9cb9-0cfff3a5859f
+
+	measure 'Total Hospital Visits' = sum('Patient visits'[Visit_ID])
+		formatString: 0
+		lineageTag: bb53fe16-040f-4c7b-ab37-3177344b1789
+
+	measure 'Average Length of days' = AVERAGE('Patient visits'[Length_of_Stay_Days])
+		lineageTag: 47c9dd4c-1a51-43a0-9ed3-756783b310b8
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column Visit_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 2ebc7567-b8fd-47f3-9af5-2618f2dcf257
+		summarizeBy: none
+		sourceColumn: Visit_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patient_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: e30fdc73-ff3a-4393-9b66-40494fa68328
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Visit_Date
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 59a9514a-b220-425a-bf30-888a3270a817
+		summarizeBy: none
+		sourceColumn: Visit_Date
+
+		variation Variation
+			isDefault
+			relationship: a3a8b4c9-ad9a-4e4c-b67a-e3abf98e4580
+			defaultHierarchy: LocalDateTable_30050f3d-437c-48c8-900d-8aab30390982.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column Department
+		dataType: string
+		lineageTag: 54342304-50e7-4c31-8931-7b85bc21e62d
+		summarizeBy: none
+		sourceColumn: Department
+
+		annotation SummarizationSetBy = Automatic
+
+	column Diagnosis
+		dataType: string
+		lineageTag: 9bab049f-c36d-499f-a286-6998d11c5728
+		summarizeBy: none
+		sourceColumn: Diagnosis
+
+		annotation SummarizationSetBy = Automatic
+
+	column Length_of_Stay_Days
+		dataType: int64
+		formatString: 0
+		lineageTag: d6c34f69-9766-4d3f-8959-96f93cfea207
+		summarizeBy: sum
+		sourceColumn: Length_of_Stay_Days
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patients_Information.County'
+		dataType: string
+		lineageTag: 4b985e40-36b4-4193-8d1f-79f05c64e65a
+		summarizeBy: none
+		sourceColumn: Patients_Information.County
+
+		annotation SummarizationSetBy = Automatic
+
+	partition 'Patient visits' = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("J:\LUXDEVHQ School work\Assignments\Hospital & Pharmacy Analysis\Hospital_Pharmacy_PowerBI_Assignment (1).xlsx"), null, true),
+				    #"Patient visits_Sheet" = Source{[Item="Patient visits",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(#"Patient visits_Sheet", [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Visit_ID", Int64.Type}, {"Patient_ID", Int64.Type}, {"Visit_Date", type date}, {"Department", type text}, {"Diagnosis", type text}, {"Length_of_Stay_Days", Int64.Type}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Changed Type", {"Patient_ID"}, Patients_Information, {"Patient_ID"}, "Patients_Information", JoinKind.LeftOuter),
+				    #"Expanded Patients_Information" = Table.ExpandTableColumn(#"Merged Queries", "Patients_Information", {"County"}, {"Patients_Information.County"})
+				in
+				    #"Expanded Patients_Information"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

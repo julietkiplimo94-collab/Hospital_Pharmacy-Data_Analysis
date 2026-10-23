@@ -1,0 +1,23 @@
+relationship a3a8b4c9-ad9a-4e4c-b67a-e3abf98e4580
+	joinOnDateBehavior: datePartOnly
+	fromColumn: 'Patient visits'.Visit_Date
+	toColumn: LocalDateTable_30050f3d-437c-48c8-900d-8aab30390982.Date
+
+relationship AutoDetected_0af8cb25-5fd2-4bf4-8529-c83e106ddb01
+	fromColumn: Pharmacy_Transactions.Visit_ID
+	toColumn: 'Patient visits'.Visit_ID
+
+relationship AutoDetected_628d20be-3bc6-447e-922f-d317fffaccaa
+	fromColumn: 'Patient visits'.Patient_ID
+	toColumn: Patients_Information.Patient_ID
+
+relationship 82c04256-e83b-498c-814b-78c257b99abb
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Pharmacy_Transactions.'Patient visits.1.Visit_Date'
+	toColumn: LocalDateTable_82145149-2bed-4bbf-8526-f7628aa95321.Date
+
+relationship 8422f60e-e0cd-4f14-b548-1b786a7236d4
+	joinOnDateBehavior: datePartOnly
+	fromColumn: Pharmacy_Transactions.'Patient visits.Visit_Date'
+	toColumn: LocalDateTable_03c28752-3ac5-4dac-a8d5-99d81a39cb27.Date
+

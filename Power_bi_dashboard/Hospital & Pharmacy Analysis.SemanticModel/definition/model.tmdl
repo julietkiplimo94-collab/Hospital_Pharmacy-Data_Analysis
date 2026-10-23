@@ -1,0 +1,24 @@
+model Model
+	culture: en-US
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: en-KE
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["Patient visits","Patients_Information","Pharmacy_Transactions"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table 'Patient visits'
+ref table DateTableTemplate_ffccc9fe-0a56-42c8-a922-a871744804ca
+ref table LocalDateTable_30050f3d-437c-48c8-900d-8aab30390982
+ref table Patients_Information
+ref table Pharmacy_Transactions
+ref table LocalDateTable_82145149-2bed-4bbf-8526-f7628aa95321
+ref table LocalDateTable_03c28752-3ac5-4dac-a8d5-99d81a39cb27
+
+ref cultureInfo en-US
+

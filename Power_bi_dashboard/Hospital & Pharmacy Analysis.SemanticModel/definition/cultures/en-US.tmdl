@@ -1,0 +1,6129 @@
+cultureInfo en-US
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "patient_visit": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visit": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "patient appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "patient call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "patient stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        },
+			        {
+			          "stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "patient stay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "patient holiday": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "patient vacation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        },
+			        {
+			          "patient break": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.461
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.visit_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Visit_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Visit_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "visit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "visit identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "holiday": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "vacation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "patient_visit.patient_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Patient_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "patient ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Patient_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "patient": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "patient identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "enduring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "persevering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "longsuffering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "long-suffering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "forbearing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "good-natured": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.visit_date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Visit_Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Visit_Date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        },
+			        {
+			          "visit moment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "patient_visit.visit_date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "VariationSource": "Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "patient_visit.visit_date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "VariationSource": "Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visit date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date year": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "visit date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "visit yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "visit moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "visit period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period year": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "patient_visit.visit_date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "VariationSource": "Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visit date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date quarter": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "visit date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.846
+			          }
+			        },
+			        {
+			          "visit qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.833
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        },
+			        {
+			          "visit moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "visit period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period quarter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "patient_visit.visit_date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "VariationSource": "Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visit date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date month": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "visit date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.762
+			          }
+			        },
+			        {
+			          "visit mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "visit moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "visit period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period month": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "patient_visit.visit_date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "VariationSource": "Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "visit day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visit date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date day": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "visit moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "moment day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "visit period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "period day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "patient_visit.department": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Department"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "department": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "branch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "specialty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "realm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.diagnosis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Diagnosis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "diagnosis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "analysis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "judgement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "judgment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "verdict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "finding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.length_of_stay_days": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Length_of_Stay_Days"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "length of stay days": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "length of stay day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Length_of_Stay_Days": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "measurement of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "extent of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "interval of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "distance of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "span of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "dimension of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "size of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "stretch of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "quantity of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "piece of stay day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.Patients_Information_county": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Patients_Information.County"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "Patients_Information.county": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patients_information. region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "patients_information. province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "patients_information. shire": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "patients_information. section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "patients_information. district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "patients_information. canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "Counties": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "patients_information": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patients_Information"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patients information": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient information": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "Patients_Information": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "information": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "patient data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient inf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "data": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "info": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "fact": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "inf": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "knowledge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ]
+			    },
+			    "patients_information.patient_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patients_Information",
+			          "ConceptualProperty": "Patient_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Patient_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "patient": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "patient identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "patient credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "enduring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "persevering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "longsuffering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "long-suffering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "forbearing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "good-natured": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "patients_information.patient_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patients_Information",
+			          "ConceptualProperty": "Patient_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Patient_Name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "patient": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "patient nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "patient title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "patient label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "patient tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "enduring": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "persevering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "longsuffering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "long-suffering": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "forbearing": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "good-natured": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "patients_information.gender": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patients_Information",
+			          "ConceptualProperty": "Gender"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "gender": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "sexuality": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "sex": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "patients_information.age": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patients_Information",
+			          "ConceptualProperty": "Age"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "age": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "oldness": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "stage": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "phase": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "era": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "epoch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "period": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "Age Group": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "patients_information.county": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patients_Information",
+			          "ConceptualProperty": "County"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "county": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "region": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "province": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "shire": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "district": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "canton": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "pharmacy transaction": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Pharmacy_Transactions": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "pharmacy operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "pharmacy deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pharmacy business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pharmacy contract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "pharmacy matter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "matter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.transaction_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Transaction_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "transaction ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "ID": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "Transaction_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "transaction": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "transaction identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "transaction credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "operation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "deal": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "business": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "contract": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "matter": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ],
+			      "NameType": "Identifier"
+			    },
+			    "pharmacy_transaction.visit_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Visit_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "visit ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Visit_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "visit": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "visit identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit identity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit identifier": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "visit credential": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "stay": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "holiday": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "vacation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.drug_name": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Drug_Name"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "drug name": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Drug_Name": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "drug": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "drug nickname": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug title": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "medication": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "painkiller": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "medicine": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "treatment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "preparation": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "prescription": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.drug_category": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Drug_Category"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "drug category": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Drug_Category": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "category": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "drug classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "classification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "drug class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug group": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "drug kind": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "class": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "type": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "grouping": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.quantity": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Quantity"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "quantity": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "magnitude": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "measure": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "size": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "capacity": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "mass": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.unit_price": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Unit_Price"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "unit price": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Unit_Price": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "price": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "module price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "element price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "entity price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "group price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "component price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "constituent price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "item price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "part price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "section price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "unit value": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.total_cost": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Total_Cost"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total cost": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Total_Cost": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "cost": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall cost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "total price": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total total": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "charge": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "rate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "fee": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_1_Visit_Date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.1.Visit_Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.1.Visit_Date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.1.Visit_Date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.1.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . 1 . Visit_Date date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . 1 . Visit_Date date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_1_Visit_Date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.1.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . 1 . Visit_Date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . 1 . Visit_Date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.1.Visit_Date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.1.Visit_Date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_1_Visit_Date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.1.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . 1 . Visit_Date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . 1 . Visit_Date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.1.Visit_Date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.1.Visit_Date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_1_Visit_Date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.1.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . 1 . Visit_Date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . 1 . Visit_Date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.1.Visit_Date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.1.Visit_Date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_1_Visit_Date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.1.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . 1 . Visit_Date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . 1 . Visit_Date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.1.Visit_Date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.1.Visit_Date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Visit_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.Visit_ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_Patient_ID": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Patient_ID"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.Patient_ID": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Patient_ID": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_Date": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Visit_Date"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.Visit_Date": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_Date": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . Visit_Date date hierarchy": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . Visit_Date date hierarchy": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "date hierarchy": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_Date.year": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Year"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . Visit_Date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . Visit_Date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.Visit_Date year": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_Date year": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit . visit_date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit.visit_date yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "yr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_Date.quarter": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Quarter"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . Visit_Date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . Visit_Date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.Visit_Date quarter": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_Date quarter": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit . visit_date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.867
+			          }
+			        },
+			        {
+			          "patient visit.visit_date qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.867
+			          }
+			        },
+			        {
+			          "qtr": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.818
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_Date.month": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Month"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . Visit_Date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . Visit_Date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.Visit_Date month": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_Date month": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit . visit_date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit.visit_date mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "mth": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_Date.day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "VariationSource": "Patient visits.Visit_Date",
+			          "VariationSet": "Variation",
+			          "Hierarchy": "Date Hierarchy",
+			          "HierarchyLevel": "Day"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits . Visit_Date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit . Visit_Date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visits.Visit_Date day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_Date day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "pharmacy_transaction.patient_visits_department": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Department"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.department": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.department": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit. subdivision": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. division": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. unit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. section": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "patient visit. branch": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "patient visit. sector": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "patient visit. responsibility": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "patient visit. specialty": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "patient visit. realm": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.489
+			          }
+			        },
+			        {
+			          "patient visit. area": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.474
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_diagnosis": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Diagnosis"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.diagnosis": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.diagnosis": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        },
+			        {
+			          "patient visit. analysis": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. judgement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. judgment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. verdict": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. opinion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. conclusion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. identification": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "patient visit. finding": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_Length_of_Stay_Day": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Length_of_Stay_Days"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.Length_of_Stay_Day": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Length_of_Stay_Day": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_Patients_Information_county": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Patients_Information.County"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.Patients_Information.county": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Patients_Information.county": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_Visit_ID_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Visit_ID.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.Visit_ID.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.Visit_ID.1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction.patient_visits_department_1": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Pharmacy_Transactions",
+			          "ConceptualProperty": "Patient visits.Department.1"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "patient visits.department.1": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "patient visit.department.1": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.78
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.total_revenue": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Total Revenue"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total revenue": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revenue": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "total income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.75
+			          }
+			        },
+			        {
+			          "income": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.736
+			          }
+			        },
+			        {
+			          "total profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "total yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "profit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "turnover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "yield": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.714
+			          }
+			        },
+			        {
+			          "aggregate revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        },
+			        {
+			          "overall revenue": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.total_hospital_visits": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Total Hospital Visits"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "total hospital visits": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "visits": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "hospital visits": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "aggregate hospital visit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "overall hospital visit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        },
+			        {
+			          "total hospital appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.508
+			          }
+			        },
+			        {
+			          "hospital appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "total hospital call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.492
+			          }
+			        },
+			        {
+			          "appointment": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "hospital call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.485
+			          }
+			        },
+			        {
+			          "total hospital stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.482
+			          }
+			        },
+			        {
+			          "call": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "hospital stopover": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.475
+			          }
+			        }
+			      ]
+			    },
+			    "patient_visit.average_length_of_days": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Patient visits",
+			          "ConceptualProperty": "Average Length of days"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "average length of days": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "length": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average length": {
+			            "State": "Generated",
+			            "Weight": 0.97
+			          }
+			        },
+			        {
+			          "average measurement of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average extent of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average interval of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.514
+			          }
+			        },
+			        {
+			          "average measurement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average extent": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average interval": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.5
+			          }
+			        },
+			        {
+			          "average distance of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average span of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average dimension of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        },
+			        {
+			          "average size of day": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.499
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "pharmacy_transaction_patient_visits_1_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_1_Visit_Date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.month": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___1___Visit_Date_date_hierarchies_have_patient_visits___1___Visit_Date_months"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_1_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_1_Visit_Date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.quarter": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___1___Visit_Date_date_hierarchies_have_patient_visits___1___Visit_Date_quarters"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_1_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_1_Visit_Date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.year": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___1___Visit_Date_date_hierarchies_have_patient_visits___1___Visit_Date_years"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_1_Visit_Date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_1_Visit_Date": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_1_Visit_Dates_have_patient_visits___1___Visit_Date_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "patient_visit_visit_date_date_hierarchy_has_patient_visit_visit_date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit.visit_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.date_hierarchy"
+			          }
+			        },
+			        "patient_visit.visit_date.day": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit.visit_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "visit_date_hierarchies_have_visit_days"
+			        }
+			      ]
+			    },
+			    "patient_visit_visit_date_date_hierarchy_has_patient_visit_visit_date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit.visit_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.date_hierarchy"
+			          }
+			        },
+			        "patient_visit.visit_date.month": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit.visit_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "visit_date_hierarchies_have_visit_months"
+			        }
+			      ]
+			    },
+			    "patient_visit_visit_date_date_hierarchy_has_patient_visit_visit_date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit.visit_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.date_hierarchy"
+			          }
+			        },
+			        "patient_visit.visit_date.quarter": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit.visit_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "visit_date_hierarchies_have_visit_quarters"
+			        }
+			      ]
+			    },
+			    "patient_visit_visit_date_date_hierarchy_has_patient_visit_visit_date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit.visit_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.date_hierarchy"
+			          }
+			        },
+			        "patient_visit.visit_date.year": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit.visit_date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "visit_date_hierarchies_have_visit_years"
+			        }
+			      ]
+			    },
+			    "patient_visit_visit_date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit.visit_date": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date"
+			          }
+			        },
+			        "patient_visit.visit_date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit.visit_date"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "visit_dates_have_visit_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visit": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "patient_visit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_pharmacy_transactions"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_patients_information": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patients_information"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_patients_information"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Object": {
+			              "Role": "patient_visit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_have_patient_visits"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_average_length_of_days": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.average_length_of_days": {
+			          "Target": {
+			            "Entity": "patient_visit.average_length_of_days"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.average_length_of_days"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_average_length_of_days"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Adjectives": [
+			              {
+			                "long": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "short": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "patient_visit.average_length_of_days"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "average_length_of_days_indicates_how_long_patient_visits_are"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_total_hospital_visits": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.total_hospital_visits": {
+			          "Target": {
+			            "Entity": "patient_visit.total_hospital_visits"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.total_hospital_visits"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_total_hospital_visits"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visit_total_revenue": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "patient_visit.total_revenue": {
+			          "Target": {
+			            "Entity": "patient_visit.total_revenue"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.total_revenue"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_total_revenue"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_department_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_department_1": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_department_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_department_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_department_1"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_Visit_ID_1": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_ID_1": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_ID_1"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_ID_1"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_Visit_ID_1"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_Patients_Information_county": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Patients_Information_county": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Patients_Information_county"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Patients_Information_county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_Patients_Information_counties"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_Length_of_Stay_Day": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Length_of_Stay_Day": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Length_of_Stay_Day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Length_of_Stay_Day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_Length_of_Stay_Days"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_diagnosis": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_diagnosis": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_diagnosis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_diagnosis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_diagnoses"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_department": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_department": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_department"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_department"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_departments"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_Visit_Date": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_Date": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_Visit_Dates"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_Patient_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Patient_ID": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Patient_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Patient_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_Patient_IDs"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_Visit_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_ID": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_Visit_IDs"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_patient_visits_1_Visit_Date": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_1_Visit_Date": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_patient_visits_1_Visit_Dates"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_total_cost": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.total_cost": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.total_cost"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.total_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_total_costs"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "pharmacy_transaction.total_cost"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "total_cost_indicates_how_expensive_pharmacy_transactions_are"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_unit_price": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.unit_price": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.unit_price"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.unit_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_unit_prices"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "pharmacy_transaction.unit_price"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "unit_price_indicates_how_expensive_pharmacy_transactions_are"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_quantity": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.quantity": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.quantity"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.quantity"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_quantities"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_drug_category": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.drug_category": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.drug_category"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.drug_category"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_drug_categories"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_drug_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.drug_name": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.drug_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.drug_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_drug_names"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_has_transaction_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.transaction_ID": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.transaction_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.transaction_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_have_transaction_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Name": {
+			              "Role": "pharmacy_transaction.transaction_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "transaction_ID_are_names_IDs_of_pharmacy_transactions"
+			        }
+			      ]
+			    },
+			    "patients_information_has_county": {
+			      "Binding": {
+			        "ConceptualEntity": "Patients_Information"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        },
+			        "patients_information.county": {
+			          "Target": {
+			            "Entity": "patients_information.county"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Object": {
+			              "Role": "patients_information.county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_have_counties"
+			        }
+			      ]
+			    },
+			    "patients_information_has_age": {
+			      "Binding": {
+			        "ConceptualEntity": "Patients_Information"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        },
+			        "patients_information.age": {
+			          "Target": {
+			            "Entity": "patients_information.age"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Object": {
+			              "Role": "patients_information.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_have_ages"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Adjectives": [
+			              {
+			                "old": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "young": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "patients_information.age"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "age_indicates_how_old_patients_information_are"
+			        }
+			      ]
+			    },
+			    "patients_information_has_gender": {
+			      "Binding": {
+			        "ConceptualEntity": "Patients_Information"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        },
+			        "patients_information.gender": {
+			          "Target": {
+			            "Entity": "patients_information.gender"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Object": {
+			              "Role": "patients_information.gender"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_have_genders"
+			        }
+			      ]
+			    },
+			    "patients_information_has_patient_name": {
+			      "Binding": {
+			        "ConceptualEntity": "Patients_Information"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        },
+			        "patients_information.patient_name": {
+			          "Target": {
+			            "Entity": "patients_information.patient_name"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Object": {
+			              "Role": "patients_information.patient_name"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_have_patient_names"
+			        }
+			      ]
+			    },
+			    "patients_information_has_patient_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Patients_Information"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        },
+			        "patients_information.patient_ID": {
+			          "Target": {
+			            "Entity": "patients_information.patient_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Object": {
+			              "Role": "patients_information.patient_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_have_patient_ID"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_Patients_Information_county": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.Patients_Information_county": {
+			          "Target": {
+			            "Entity": "patient_visit.Patients_Information_county"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.Patients_Information_county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_Patients_Information_counties"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_length_of_stay_days": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.length_of_stay_days": {
+			          "Target": {
+			            "Entity": "patient_visit.length_of_stay_days"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.length_of_stay_days"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_length_of_stay_days"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_diagnosis": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.diagnosis": {
+			          "Target": {
+			            "Entity": "patient_visit.diagnosis"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.diagnosis"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_diagnoses"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_department": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.department": {
+			          "Target": {
+			            "Entity": "patient_visit.department"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.department"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_departments"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_visit_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.visit_date": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_date"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_visit_dates"
+			        }
+			      ]
+			    },
+			    "patient_visit_has_visit_ID": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.visit_ID": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_ID"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Object": {
+			              "Role": "patient_visit.visit_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_have_visit_ID"
+			        },
+			        {
+			          "Name": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Name": {
+			              "Role": "patient_visit.visit_ID"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "visit_ID_are_names_IDs_of_patient_visits"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_in_patient_visits_Patients_Information_county": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Patients_Information_county": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Patients_Information_county"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "pharmacy_transaction.patient_visits_Patients_Information_county"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Patients_Information_county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "pharmacy_transactions_are_in_patient_visits_Patients_Information_counties"
+			        }
+			      ]
+			    },
+			    "patients_information_in_county": {
+			      "Binding": {
+			        "ConceptualEntity": "Patients_Information"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patients_information": {
+			          "Target": {
+			            "Entity": "patients_information"
+			          }
+			        },
+			        "patients_information.county": {
+			          "Target": {
+			            "Entity": "patients_information.county"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "patients_information.county"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "patients_information"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "patients_information.county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patients_information_are_in_counties"
+			        }
+			      ]
+			    },
+			    "patient_visit_in_Patients_Information_county": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.Patients_Information_county": {
+			          "Target": {
+			            "Entity": "patient_visit.Patients_Information_county"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "Where": {
+			          "Role": "patient_visit.Patients_Information_county"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "patient_visit"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "patient_visit.Patients_Information_county"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_are_in_Patients_Information_counties"
+			        }
+			      ]
+			    },
+			    "patient_visit_is_visited_on_visit_date": {
+			      "Binding": {
+			        "ConceptualEntity": "Patient visits"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "patient_visit": {
+			          "Target": {
+			            "Entity": "patient_visit"
+			          }
+			        },
+			        "patient_visit.visit_date": {
+			          "Target": {
+			            "Entity": "patient_visit.visit_date"
+			          }
+			        }
+			      },
+			      "SemanticSlots": {
+			        "When": {
+			          "Role": "patient_visit.visit_date"
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Verb": {
+			            "Verbs": [
+			              {
+			                "visit": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "patient_visit"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.9,
+			          "ID": "patient_visits_are_visited_on_visit_dates"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_1_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_1_Visit_Date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_1_Visit_Date.day": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_1_Visit_Date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_1_Visit_Date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___1___Visit_Date_date_hierarchies_have_patient_visits___1___Visit_Date_days"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_Visit_Date_has_date_hierarchy": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_Visit_Date": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits_Visit_Dates_have_patient_visits___Visit_Date_date_hierarchies"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_Visit_Date_year": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_Date.year": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.year"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.year"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___Visit_Date_date_hierarchies_have_patient_visits___Visit_Date_years"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_Visit_Date_quarter": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_Date.quarter": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.quarter"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.quarter"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___Visit_Date_date_hierarchies_have_patient_visits___Visit_Date_quarters"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_Visit_Date_month": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_Date.month": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.month"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.month"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___Visit_Date_date_hierarchies_have_patient_visits___Visit_Date_months"
+			        }
+			      ]
+			    },
+			    "pharmacy_transaction_patient_visits_Visit_Date_date_hierarchy_has_pharmacy_transaction_patient_visits_Visit_Date_day": {
+			      "Binding": {
+			        "ConceptualEntity": "Pharmacy_Transactions"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			          }
+			        },
+			        "pharmacy_transaction.patient_visits_Visit_Date.day": {
+			          "Target": {
+			            "Entity": "pharmacy_transaction.patient_visits_Visit_Date.day"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.date_hierarchy"
+			            },
+			            "Object": {
+			              "Role": "pharmacy_transaction.patient_visits_Visit_Date.day"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "patient_visits___Visit_Date_date_hierarchies_have_patient_visits___Visit_Date_days"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

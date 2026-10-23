@@ -1,0 +1,189 @@
+table Pharmacy_Transactions
+	lineageTag: 3a6a9921-f5c7-462b-9d4d-96d062c22a09
+
+	column Transaction_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: eb724d0d-3c8b-4a4c-ad5f-5d5d0ecf889f
+		summarizeBy: count
+		sourceColumn: Transaction_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Visit_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 6b51d2e7-2708-4a7b-89c4-4d603c6cc09d
+		summarizeBy: none
+		sourceColumn: Visit_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Drug_Name
+		dataType: string
+		lineageTag: f8ffdaf4-6d9d-492a-ba35-55733de3e73f
+		summarizeBy: none
+		sourceColumn: Drug_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Drug_Category
+		dataType: string
+		lineageTag: 3254cec2-0344-4fa5-b161-8b9b0b8ab730
+		summarizeBy: none
+		sourceColumn: Drug_Category
+
+		annotation SummarizationSetBy = Automatic
+
+	column Quantity
+		dataType: int64
+		formatString: 0
+		lineageTag: dafdd9bb-a062-4c24-bb71-1932b6f5676e
+		summarizeBy: sum
+		sourceColumn: Quantity
+
+		annotation SummarizationSetBy = Automatic
+
+	column Unit_Price
+		dataType: int64
+		formatString: "Ksh"#,0.00;-"Ksh"#,0.00;"Ksh"#,0.00
+		lineageTag: 46aec78f-2b33-4d05-ab29-25538058d711
+		summarizeBy: sum
+		sourceColumn: Unit_Price
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"ebu-KE"}
+
+	column Total_Cost
+		dataType: int64
+		formatString: "Ksh"#,0.00;-"Ksh"#,0.00;"Ksh"#,0.00
+		lineageTag: 741af6de-8c92-490f-9a45-461d247c6de4
+		summarizeBy: sum
+		sourceColumn: Total_Cost
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"currencyCulture":"ebu-KE"}
+
+	column 'Patient visits.1.Visit_Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: 02d9f5ad-95d5-4a6e-8fd1-aecd4188bcd3
+		summarizeBy: none
+		sourceColumn: Patient visits.1.Visit_Date
+
+		variation Variation
+			isDefault
+			relationship: 82c04256-e83b-498c-814b-78c257b99abb
+			defaultHierarchy: LocalDateTable_82145149-2bed-4bbf-8526-f7628aa95321.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Patient visits.Visit_ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: bd13b0d5-46cc-414a-98fc-407ba53cc47c
+		summarizeBy: count
+		sourceColumn: Patient visits.Visit_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Patient_ID'
+		dataType: int64
+		formatString: 0
+		lineageTag: a16f00b2-e7a7-4bfe-b9c6-19c17cdc16da
+		summarizeBy: count
+		sourceColumn: Patient visits.Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Visit_Date'
+		dataType: dateTime
+		formatString: Long Date
+		lineageTag: d8f16052-0689-4855-8b92-9eabed5ef12f
+		summarizeBy: none
+		sourceColumn: Patient visits.Visit_Date
+
+		variation Variation
+			isDefault
+			relationship: 8422f60e-e0cd-4f14-b548-1b786a7236d4
+			defaultHierarchy: LocalDateTable_03c28752-3ac5-4dac-a8d5-99d81a39cb27.'Date Hierarchy'
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+	column 'Patient visits.Department'
+		dataType: string
+		lineageTag: 68c908de-2d5e-48da-9613-2e4b29d57012
+		summarizeBy: none
+		sourceColumn: Patient visits.Department
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Diagnosis'
+		dataType: string
+		lineageTag: 7cbc1574-2704-48c9-b15c-179924d3400a
+		summarizeBy: none
+		sourceColumn: Patient visits.Diagnosis
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Length_of_Stay_Days'
+		dataType: int64
+		formatString: 0
+		lineageTag: 48dbfcd2-af44-4b50-bff2-aa5dc39ed17e
+		summarizeBy: sum
+		sourceColumn: Patient visits.Length_of_Stay_Days
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Patients_Information.County'
+		dataType: string
+		lineageTag: 58576e94-39e4-4b2d-bb62-d13edcb339a3
+		summarizeBy: none
+		sourceColumn: Patient visits.Patients_Information.County
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Visit_ID.1'
+		dataType: int64
+		formatString: 0
+		lineageTag: 8d2f222a-8c9c-4e4f-996c-12e5f3e4688d
+		summarizeBy: sum
+		sourceColumn: Patient visits.Visit_ID.1
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'Patient visits.Department.1'
+		dataType: string
+		lineageTag: 6bb921ad-939b-4a5f-b736-9fdcec7b7b24
+		summarizeBy: none
+		sourceColumn: Patient visits.Department.1
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Pharmacy_Transactions = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("J:\LUXDEVHQ School work\Assignments\Hospital & Pharmacy Analysis\Hospital_Pharmacy_PowerBI_Assignment (1).xlsx"), null, true),
+				    Pharmacy_Transactions_Sheet = Source{[Item="Pharmacy_Transactions",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Pharmacy_Transactions_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Transaction_ID", Int64.Type}, {"Visit_ID", Int64.Type}, {"Drug_Name", type text}, {"Drug_Category", type text}, {"Quantity", Int64.Type}, {"Unit_Price", Int64.Type}, {"Total_Cost", Int64.Type}}),
+				    #"Merged Queries" = Table.NestedJoin(#"Changed Type", {"Visit_ID"}, #"Patient visits", {"Visit_ID"}, "Patient visits", JoinKind.LeftOuter),
+				    #"Merged Queries1" = Table.NestedJoin(#"Merged Queries", {"Visit_ID"}, #"Patient visits", {"Visit_ID"}, "Patient visits.1", JoinKind.LeftOuter),
+				    #"Expanded Patient visits.1" = Table.ExpandTableColumn(#"Merged Queries1", "Patient visits.1", {"Visit_Date"}, {"Patient visits.1.Visit_Date"}),
+				    #"Expanded Patient visits" = Table.ExpandTableColumn(#"Expanded Patient visits.1", "Patient visits", {"Visit_ID", "Patient_ID", "Visit_Date", "Department", "Diagnosis", "Length_of_Stay_Days", "Patients_Information.County"}, {"Patient visits.Visit_ID", "Patient visits.Patient_ID", "Patient visits.Visit_Date", "Patient visits.Department", "Patient visits.Diagnosis", "Patient visits.Length_of_Stay_Days", "Patient visits.Patients_Information.County"}),
+				    #"Merged Queries2" = Table.NestedJoin(#"Expanded Patient visits", {"Visit_ID"}, #"Patient visits", {"Visit_ID"}, "Patient visits", JoinKind.LeftOuter),
+				    #"Expanded Patient visits1" = Table.ExpandTableColumn(#"Merged Queries2", "Patient visits", {"Visit_ID", "Department"}, {"Patient visits.Visit_ID.1", "Patient visits.Department.1"})
+				in
+				    #"Expanded Patient visits1"
+
+	annotation PBI_ResultType = Table
+
+	annotation PBI_NavigationStepName = Navigation
+

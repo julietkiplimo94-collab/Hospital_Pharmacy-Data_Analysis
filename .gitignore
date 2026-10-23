@@ -1,0 +1,19 @@
+# === Python Virtual Environment ===
+hosvenv/
+venv/
+.venv/
+__pycache__/
+*.pyc
+
+# === Data files ===
+# If your dataset contains private patient data or heavy files, un-comment the line below:
+# Dataset/
+
+# === Power BI User-Specific Caches ===
+**/.pbi/
+**/localSettings.json
+**/diagramLayout.json
+
+# === System Files ===
+.DS_Store
+Thumbs.db

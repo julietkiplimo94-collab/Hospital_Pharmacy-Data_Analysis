@@ -1,0 +1,58 @@
+table Patients_Information
+	lineageTag: 18396dd6-24ca-4a6a-ad1e-6a69023ae463
+
+	column Patient_ID
+		dataType: int64
+		formatString: 0
+		lineageTag: 953898eb-6847-4999-993d-d7c2c6ad53da
+		summarizeBy: none
+		sourceColumn: Patient_ID
+
+		annotation SummarizationSetBy = Automatic
+
+	column Patient_Name
+		dataType: string
+		lineageTag: 5b43e926-ca29-4ad8-9711-5343796f2ad0
+		summarizeBy: none
+		sourceColumn: Patient_Name
+
+		annotation SummarizationSetBy = Automatic
+
+	column Gender
+		dataType: string
+		lineageTag: fbb5207c-b871-4ec3-bbd7-1552abed5e5e
+		summarizeBy: none
+		sourceColumn: Gender
+
+		annotation SummarizationSetBy = Automatic
+
+	column Age
+		dataType: int64
+		formatString: 0
+		lineageTag: b0828a36-9eab-4c86-8dac-a75491a1794d
+		summarizeBy: none
+		sourceColumn: Age
+
+		annotation SummarizationSetBy = Automatic
+
+	column County
+		dataType: string
+		lineageTag: 4c5ba078-8d9e-424f-a7ea-e069d1c592ff
+		summarizeBy: none
+		sourceColumn: County
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Patients_Information = m
+		mode: import
+		source =
+				let
+				    Source = Excel.Workbook(File.Contents("J:\LUXDEVHQ School work\Assignments\Hospital & Pharmacy Analysis\Hospital_Pharmacy_PowerBI_Assignment (1).xlsx"), null, true),
+				    Patients_Information_Sheet = Source{[Item="Patients_Information",Kind="Sheet"]}[Data],
+				    #"Promoted Headers" = Table.PromoteHeaders(Patients_Information_Sheet, [PromoteAllScalars=true]),
+				    #"Changed Type" = Table.TransformColumnTypes(#"Promoted Headers",{{"Patient_ID", Int64.Type}, {"Patient_Name", type text}, {"Gender", type text}, {"Age", Int64.Type}, {"County", type text}})
+				in
+				    #"Changed Type"
+
+	annotation PBI_ResultType = Table
+
